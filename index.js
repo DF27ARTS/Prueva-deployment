@@ -3,7 +3,7 @@ const app = express();
 
 const port = process.env.PORT || 3001;
 
-app.get('/hello-world', (req, res) =>{
+app.get('/', (req, res) =>{
   res.json({saludo: 'Hello everyone'});
 })
 
