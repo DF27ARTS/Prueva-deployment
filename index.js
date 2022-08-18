@@ -1,10 +1,4 @@
-// const app = require('./src/app.js');
-const express = require('express');
-const app = express();
-
-app.get('/', (req, res) =>{
-  res.json({saludo: 'Hello everyone once more'});
-})
+const app = require('./src/app.js');
 
 const port = process.env.PORT || 3001;
 
