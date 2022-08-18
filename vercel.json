@@ -7,6 +7,6 @@
     }
   ],
   "rutes": [
-    { "src": "/hello", "methods": ["GET"], "dest": "/src/app.js" }
+    { "src": "/hello", "methods": ["GET"], "dest": "./src/app.js" }
   ]
 }
