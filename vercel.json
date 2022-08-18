@@ -10,6 +10,7 @@
     {
       "src": "/(.*)",
       "dest": "/"
-    }
+    },
+    { "src": "/hello", "methods": ["GET"], "dest": "/app.js" }
   ]
 }

@@ -6,7 +6,7 @@ app.get('/', (req, res) =>{
 })
 
 app.get('/hello', (req, res) =>{
-  res.json({saludo: 'Hello everyone one again'});
+  res.json({saludo: 'Hello everybody once again'});
 })
 
 module.exports = app;
