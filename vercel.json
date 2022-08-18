@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     }
   ],
-  "rutes": [
+  "routes": [
     { "src": "/hello", "methods": ["GET"], "dest": "/index.js" }
   ]
 }
