@@ -7,9 +7,6 @@
     }
   ],
   "rutes": [
-    {
-      "src": "/.*",
-      "dest": "/"
-    }
+    { "src": "/hello", "methods": ["GET"], "dest": "/src/app.js" }
   ]
 }
