@@ -7,6 +7,6 @@
     }
   ],
   "routes": [
-    {"src": "/hello", "methods": ["GET"], "dest": "/app.js" }
+    {"src": "/hello", "methods": ["GET"], "dest": "./src/app.js" }
   ]
 }
